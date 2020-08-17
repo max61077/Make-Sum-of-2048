@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    color: grey;
+    font-size: 30px;
+}
+
+.side-bar{
+    height: 50px;
+    width: 300px;
+    padding: 2px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-right: 500px;
+    transform: rotate(-90deg);
+    border: 2px solid lightgrey;
+    color: grey;
+}
+
+.side-bar:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.ins{
+    width: 430px;
+    height: 500px;
+    position: absolute;
+    border: 1px solid lightgrey;
+    background-color:whitesmoke;
+    color: darkslategray;
+    font-size: 18px;
+}
+
+.ins h2{
+    text-align: center;
+}
+
+.ins li{
+    padding: 5px;
+}
+
+.grid{
+    height: 420px;
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: #eee;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkslategrey;
+}
+
+.btn{
+    width: 100px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px){
+
+    .result{
+        padding: 10px;
+        width: 200px;
+        text-align: center;
+        color: darkslategray;
+        font-size: 15px;
+    }
+
+    .grid{
+        height: 215px;
+        width: 215px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .square{
+        height: 50px;
+        width: 50px;
+        background-color: #eee;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkslategrey;
+    }
+
+    .btn{
+        margin-top: 100px;
+    }
+
+    .side-bar{
+        height: 25px;
+        width: 150px;
+        padding: 1px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        margin-bottom: 130px;
+        margin-right: 250px;
+        transform: rotate(-90deg);
+        border: 1px solid lightgrey;
+    }
+
+    .ins{
+        width: 215px;
+        height: 250px;
+        position: absolute;
+        border: 1px solid lightgrey;
+        background-color:whitesmoke;
+        color: darkslategray;
+        font-size: 9px;
+        margin-bottom: 75px;
+    }
+
+    .ins li{
+        padding: 2px;
+    }
+
+    .btn{
+        width: 75px;
+        padding: 7px;
+        font-size: 10px;
+    }
+}
